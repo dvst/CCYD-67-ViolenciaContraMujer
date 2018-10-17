@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { PerfilPage } from '../perfil/perfil';
 
 /**
  * Generated class for the BienvenidaPage page.
@@ -19,6 +20,16 @@ export class BienvenidaPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad BienvenidaPage');
+  }
+  
+  irPagina(type){
+    let componente:any; 
+    switch(type){
+      case "p": 
+        componente=PerfilPage
+        break;
+    }
+    this.navCtrl.setRoot(componente)
   }
 
 }

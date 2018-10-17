@@ -14,6 +14,7 @@ import { ElementosPage } from '../pages/elementos/elementos';
 import { TabsPage } from '../pages/tabs/tabs';
 import { SliderPage } from '../pages/slider/slider';
 import { BienvenidaPage } from '../pages/bienvenida/bienvenida';
+import { PerfilPage } from '../pages/perfil/perfil';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { BienvenidaPage } from '../pages/bienvenida/bienvenida';
     ElementosPage,
     TabsPage,
     SliderPage,
-    BienvenidaPage
+    BienvenidaPage,
+    PerfilPage
   ],
   imports: [
     BrowserModule,
@@ -42,7 +44,8 @@ import { BienvenidaPage } from '../pages/bienvenida/bienvenida';
     ElementosPage,
     TabsPage,
     SliderPage,
-    BienvenidaPage
+    BienvenidaPage,
+    PerfilPage
   ],
   providers: [
     StatusBar,
