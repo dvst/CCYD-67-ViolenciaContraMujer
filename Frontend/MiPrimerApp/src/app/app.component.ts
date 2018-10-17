@@ -11,6 +11,7 @@ import { LoginPage } from '../pages/login/login';
 import { ElementosPage } from '../pages/elementos/elementos';
 import { TabsPage } from '../pages/tabs/tabs';
 import { SliderPage } from '../pages/slider/slider';
+import { BienvenidaPage } from '../pages/bienvenida/bienvenida';
 
 
 @Component({
@@ -20,7 +21,7 @@ export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
   // make HelloIonicPage the root (or first) page
-  rootPage = SliderPage;
+  rootPage = BienvenidaPage;
   pages: Array<{title: string, component: any}>;
 
   constructor(
@@ -39,6 +40,7 @@ export class MyApp {
       { title: 'Elementos', component: ElementosPage },
       { title: 'Tabs', component: TabsPage },
       { title: 'Slider', component: SliderPage },
+      { title: 'Bienvenida', component: BienvenidaPage },
 
     ];
   }

@@ -13,6 +13,8 @@ import { LoginPage } from '../pages/login/login';
 import { ElementosPage } from '../pages/elementos/elementos';
 import { TabsPage } from '../pages/tabs/tabs';
 import { SliderPage } from '../pages/slider/slider';
+import { BienvenidaPage } from '../pages/bienvenida/bienvenida';
+
 
 @NgModule({
   declarations: [
@@ -23,7 +25,8 @@ import { SliderPage } from '../pages/slider/slider';
     LoginPage,
     ElementosPage,
     TabsPage,
-    SliderPage
+    SliderPage,
+    BienvenidaPage
   ],
   imports: [
     BrowserModule,
@@ -38,7 +41,8 @@ import { SliderPage } from '../pages/slider/slider';
     LoginPage,
     ElementosPage,
     TabsPage,
-    SliderPage
+    SliderPage,
+    BienvenidaPage
   ],
   providers: [
     StatusBar,
