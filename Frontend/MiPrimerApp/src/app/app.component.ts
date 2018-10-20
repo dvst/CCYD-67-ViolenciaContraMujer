@@ -13,6 +13,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { SliderPage } from '../pages/slider/slider';
 import { BienvenidaPage } from '../pages/bienvenida/bienvenida';
 import { PerfilPage } from '../pages/perfil/perfil';
+import { PerfilCrearPage } from '../pages/perfil-crear/perfil-crear';
 
 
 @Component({
@@ -22,7 +23,7 @@ export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
   // make HelloIonicPage the root (or first) page
-  rootPage = PerfilPage;
+  rootPage = PerfilCrearPage;
   pages: Array<{title: string, component: any}>;
 
   constructor(
