@@ -14,6 +14,7 @@ import { BienvenidaPage } from '../pages/bienvenida/bienvenida';
 import { PerfilPage } from '../pages/perfil/perfil';
 import { PerfilCrearPage } from '../pages/perfil-crear/perfil-crear';
 import { HistoriasPage } from '../pages/historias/historias';
+import { AcercaPage } from '../pages/acerca/acerca';
 
 
 @Component({
@@ -43,6 +44,7 @@ export class MyApp {
       { title: 'Tabs', component: TabsPage },
       { title: 'Slider', component: SliderPage },
       { title: 'Bienvenida', component: BienvenidaPage },
+      { title: 'Acerca de la app', component: AcercaPage },
 
     ];
   }
