@@ -15,8 +15,8 @@
 
 <ion-content padding> 
 
-  <button ion-button icon-start block><ion-icon name="man"></ion-icon>Javier</button> 
-  <button ion-button icon-start block color="danger"><ion-icon name="woman"></ion-icon>Pilar</button> 
+  <button ion-button icon-start block (click)="irPagina('historias','Javier')"><ion-icon name="man"></ion-icon>Javier</button> 
+  <button ion-button icon-start block (click)="irPagina('historias','Pilar')" color="danger"><ion-icon name="woman"></ion-icon>Pilar</button> 
 
   <ion-fab right bottom>
     <button ion-fab color="secondary"><ion-icon name="add"></ion-icon> </button>
