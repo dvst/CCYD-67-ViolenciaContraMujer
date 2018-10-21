@@ -8,7 +8,7 @@ import { BienvenidaPage } from '../pages/bienvenida/bienvenida';
 import { PerfilPage } from '../pages/perfil/perfil';
 import { HistoriasPage } from '../pages/historias/historias';
 import { AcercaPage } from '../pages/acerca/acerca';
-
+import { TrofeoPage } from '../pages/trofeo/trofeo';
 
 @Component({
   templateUrl: 'app.html'
@@ -32,6 +32,7 @@ export class MyApp {
       { title: 'Bienvenida', component: BienvenidaPage },
       { title: 'Seleccionar perfil', component: PerfilPage },
       { title: 'Historias', component: HistoriasPage },
+      { title: 'Ruta a la Victoria', component: TrofeoPage },
       { title: 'Acerca de la app', component: AcercaPage },
     ];
   }
