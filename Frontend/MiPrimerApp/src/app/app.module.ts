@@ -16,6 +16,7 @@ import { SliderPage } from '../pages/slider/slider';
 import { BienvenidaPage } from '../pages/bienvenida/bienvenida';
 import { PerfilPage } from '../pages/perfil/perfil';
 import { PerfilCrearPage } from '../pages/perfil-crear/perfil-crear';
+import { HistoriasPage } from '../pages/historias/historias';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { PerfilCrearPage } from '../pages/perfil-crear/perfil-crear';
     SliderPage,
     BienvenidaPage,
     PerfilPage,
-    PerfilCrearPage
+    PerfilCrearPage,
+    HistoriasPage
   ],
   imports: [
     BrowserModule,
@@ -48,7 +50,8 @@ import { PerfilCrearPage } from '../pages/perfil-crear/perfil-crear';
     SliderPage,
     BienvenidaPage,
     PerfilPage,
-    PerfilCrearPage
+    PerfilCrearPage,
+    HistoriasPage
   ],
   providers: [
     StatusBar,

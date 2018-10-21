@@ -14,6 +14,7 @@ import { SliderPage } from '../pages/slider/slider';
 import { BienvenidaPage } from '../pages/bienvenida/bienvenida';
 import { PerfilPage } from '../pages/perfil/perfil';
 import { PerfilCrearPage } from '../pages/perfil-crear/perfil-crear';
+import { HistoriasPage } from '../pages/historias/historias';
 
 
 @Component({
@@ -23,7 +24,7 @@ export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
   // make HelloIonicPage the root (or first) page
-  rootPage = PerfilCrearPage;
+  rootPage = HistoriasPage;
   pages: Array<{title: string, component: any}>;
 
   constructor(
