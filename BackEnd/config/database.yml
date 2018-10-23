@@ -17,6 +17,10 @@
 default: &default
   adapter: postgresql
   encoding: unicode
+  host: <%= ENV['VIOLENCIACONTRAMUJER_HOST'] %>
+  port: <%= ENV['VIOLENCIACONTRAMUJER_PORT'] %>
+  username: <%= ENV['VIOLENCIACONTRAMUJER_DATABASE_USERNAME'] %>
+  password: <%= ENV['VIOLENCIACONTRAMUJER_DATABASE_PASSWORD'] %>
   # For details on connection pooling, see Rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
@@ -81,5 +85,3 @@ test:
 production:
   <<: *default
   database: ViolenciaContraMujer_production
-  username: ViolenciaContraMujer
-  password: <%= ENV['VIOLENCIACONTRAMUJER_DATABASE_PASSWORD'] %>
