@@ -16,7 +16,7 @@ import { AcercaPage } from '../pages/acerca/acerca';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage = HistoriasPage;
+  rootPage = BienvenidaPage;
   pages: Array<{title: string, component: any}>;
 
   constructor(
