@@ -25,6 +25,22 @@
   
     <ion-slide style="background-color: #FFDF00">
       <button ion-button color="light" (click)="irPagina('p')" >Empecemos</button>
+
+      <ion-fab center bottom>
+
+          <button ion-fab color="danger"><ion-icon name="cube"></ion-icon></button>
+
+          <ion-fab-list side="top">
+            <button color="primary" (click)="irPagina('p')" >Empecemos</button>
+          </ion-fab-list>
+          <ion-fab-list side="left">
+            <button color="light">hacer nada</button>
+          </ion-fab-list>
+          <ion-fab-list side="right">
+            <button color="dark">Ya aprendí</button>
+          </ion-fab-list>
+        </ion-fab>
+      
     </ion-slide>
   
   </ion-slides>
