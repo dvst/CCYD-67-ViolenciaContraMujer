@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams, ModalController } from 'ionic-angular';
 import { HistoriasPage } from '../historias/historias';
 import { ToastController } from 'ionic-angular';
+import { PerfilCrearPage } from '../perfil-crear/perfil-crear';
 
 
 /**
@@ -17,7 +18,7 @@ import { ToastController } from 'ionic-angular';
 })
 export class PerfilPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public toastCtrl: ToastController) {
+  constructor(public modalCtrl: ModalController ,public navCtrl: NavController, public navParams: NavParams, public toastCtrl: ToastController) {
   }
 
   ionViewDidLoad() {
@@ -42,5 +43,8 @@ export class PerfilPage {
     this.navCtrl.setRoot(componente)
   }
 
-
+  perfil_nuevo() {
+   let profileModal = this.modalCtrl.create(PerfilCrearPage);
+   profileModal.present();
+  }
 }

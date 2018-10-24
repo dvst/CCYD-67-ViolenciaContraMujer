@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams, ViewController } from 'ionic-angular';
 
 /**
  * Generated class for the PerfilCrearPage page.
@@ -14,11 +14,16 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class PerfilCrearPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public viewCtrl: ViewController ,public navCtrl: NavController, public navParams: NavParams) {
   }
-
+  text;
   ionViewDidLoad() {
     console.log('ionViewDidLoad PerfilCrearPage');
+  }
+
+  dismiss() {
+    alert(this.text);
+    this.viewCtrl.dismiss();
   }
 
 }
