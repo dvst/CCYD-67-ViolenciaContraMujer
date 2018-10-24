@@ -34,9 +34,9 @@ var HistoriasPage = /** @class */ (function () {
     };
     HistoriasPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-historias',template:/*ion-inline-start:"/Users/javierperez/Documents/programacion/git/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/historias/historias.html"*/'<!--\n  Generated template for the HistoriasPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-toolbar>\n    <ion-buttons start>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>      \n    </ion-buttons>\n\n    <ion-title>Historias</ion-title>\n\n    <ion-buttons end>\n      <button ion-button>\n        <ion-icon name="trophy" color="golden"></ion-icon>\n      </button>\n    </ion-buttons>\n  \n  </ion-toolbar>\n  \n</ion-header>\n\n<ion-content class="card-background-page">\n  <ion-card>\n    <img src="assets/imgs/historias-card-escuela.png"/>\n    <div class="card-title">Escuela</div>\n    <ion-row no-padding>\n      <div class="card-subtitle">\n        <ion-col>\n          <ion-icon name="star" color="golden"></ion-icon>\n          <ion-icon name="star-outline" color="golden"></ion-icon>\n          <ion-icon name="star-outline" color="golden"></ion-icon>\n          <ion-icon name="star-outline" color="golden"></ion-icon>\n          <ion-icon name="star-outline" color="golden"></ion-icon>\n        </ion-col>\n      </div>\n      </ion-row>\n  </ion-card>\n  \n  <ion-card>\n    <img src="assets/imgs/historias-card-fiesta.png"/>\n    <div class="card-title">Fiesta</div>\n    <div class="card-subtitle">\n        <ion-icon name="star" color="golden"></ion-icon>\n        <ion-icon name="star-outline" color="golden"></ion-icon>\n        <ion-icon name="star-outline" color="golden"></ion-icon>\n        <ion-icon name="star-outline" color="golden"></ion-icon>\n        <ion-icon name="star-outline" color="golden"></ion-icon>\n      </div>  \n    </ion-card>\n  \n  <ion-card>\n    <img src="assets/imgs/historias-card-mall.png"/>\n    <div class="card-title">Mall</div>\n    <div class="card-subtitle">\n        <ion-icon name="star" color="golden"></ion-icon>\n        <ion-icon name="star" color="golden"></ion-icon>\n        <ion-icon name="star" color="golden"></ion-icon>\n        <ion-icon name="star-half" color="golden"></ion-icon>\n        <ion-icon name="star-outline" color="golden"></ion-icon>\n      </div>  \n    </ion-card>\n  \n  <ion-card>\n    <img src="assets/imgs/historias-card-parque.png"/>\n    <div class="card-title">Parque</div>\n    <div class="card-subtitle">\n      <ion-icon name="star" color="golden"></ion-icon>\n      <ion-icon name="star" color="golden"></ion-icon>\n      <ion-icon name="star-outline" color="golden"></ion-icon>\n      <ion-icon name="star-outline" color="golden"></ion-icon>\n      <ion-icon name="star-outline" color="golden"></ion-icon>\n    </div>  \n  </ion-card>\n\n  <ion-card>\n    <img src="assets/imgs/historias-card-transporte.png"/>\n    <div class="card-title">Transporte</div>\n    <div class="card-subtitle">\n      <ion-icon name="star" color="golden"></ion-icon>\n      <ion-icon name="star" color="golden"></ion-icon>\n      <ion-icon name="star" color="golden"></ion-icon>\n      <ion-icon name="star" color="golden"></ion-icon>\n      <ion-icon name="star-outline" color="golden"></ion-icon>\n    </div>      \n  </ion-card>\n  \n  <ion-card>\n    <img src="assets/imgs/historias-card-casa.png"/>\n    <div class="card-title">Casa</div>\n    <div class="card-subtitle">\n      <ion-icon name="star" color="golden"></ion-icon>\n      <ion-icon name="star" color="golden"></ion-icon>\n      <ion-icon name="star" color="golden"></ion-icon>\n      <ion-icon name="star" color="golden"></ion-icon>\n      <ion-icon name="star-outline" color="golden"></ion-icon>\n    </div>      \n  </ion-card>\n  \n\n</ion-content>\n'/*ion-inline-end:"/Users/javierperez/Documents/programacion/git/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/historias/historias.html"*/,
+            selector: 'page-historias',template:/*ion-inline-start:"/home/eaxadevops/Documents/programacion/github/dvst/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/historias/historias.html"*/'<!--\n  Generated template for the HistoriasPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-toolbar>\n    <ion-buttons start>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>      \n    </ion-buttons>\n\n    <ion-title>Historias</ion-title>\n\n    <ion-buttons end>\n      <button ion-button>\n        <ion-icon name="trophy" color="golden"></ion-icon>\n      </button>\n    </ion-buttons>\n  \n  </ion-toolbar>\n  \n</ion-header>\n\n<ion-content class="card-background-page">\n  <ion-card>\n    <img src="assets/imgs/historias-card-escuela.png"/>\n    <div class="card-title">Escuela</div>\n    <ion-row no-padding>\n      <div class="card-subtitle">\n        <ion-col>\n          <ion-icon name="star" color="golden"></ion-icon>\n          <ion-icon name="star-outline" color="golden"></ion-icon>\n          <ion-icon name="star-outline" color="golden"></ion-icon>\n          <ion-icon name="star-outline" color="golden"></ion-icon>\n          <ion-icon name="star-outline" color="golden"></ion-icon>\n        </ion-col>\n      </div>\n      </ion-row>\n  </ion-card>\n  \n  <ion-card>\n    <img src="assets/imgs/historias-card-fiesta.png"/>\n    <div class="card-title">Fiesta</div>\n    <div class="card-subtitle">\n        <ion-icon name="star" color="golden"></ion-icon>\n        <ion-icon name="star-outline" color="golden"></ion-icon>\n        <ion-icon name="star-outline" color="golden"></ion-icon>\n        <ion-icon name="star-outline" color="golden"></ion-icon>\n        <ion-icon name="star-outline" color="golden"></ion-icon>\n      </div>  \n    </ion-card>\n  \n  <ion-card>\n    <img src="assets/imgs/historias-card-mall.png"/>\n    <div class="card-title">Mall</div>\n    <div class="card-subtitle">\n        <ion-icon name="star" color="golden"></ion-icon>\n        <ion-icon name="star" color="golden"></ion-icon>\n        <ion-icon name="star" color="golden"></ion-icon>\n        <ion-icon name="star-half" color="golden"></ion-icon>\n        <ion-icon name="star-outline" color="golden"></ion-icon>\n      </div>  \n    </ion-card>\n  \n  <ion-card>\n    <img src="assets/imgs/historias-card-parque.png"/>\n    <div class="card-title">Parque</div>\n    <div class="card-subtitle">\n      <ion-icon name="star" color="golden"></ion-icon>\n      <ion-icon name="star" color="golden"></ion-icon>\n      <ion-icon name="star-outline" color="golden"></ion-icon>\n      <ion-icon name="star-outline" color="golden"></ion-icon>\n      <ion-icon name="star-outline" color="golden"></ion-icon>\n    </div>  \n  </ion-card>\n\n  <ion-card>\n    <img src="assets/imgs/historias-card-transporte.png"/>\n    <div class="card-title">Transporte</div>\n    <div class="card-subtitle">\n      <ion-icon name="star" color="golden"></ion-icon>\n      <ion-icon name="star" color="golden"></ion-icon>\n      <ion-icon name="star" color="golden"></ion-icon>\n      <ion-icon name="star" color="golden"></ion-icon>\n      <ion-icon name="star-outline" color="golden"></ion-icon>\n    </div>      \n  </ion-card>\n  \n  <ion-card>\n    <img src="assets/imgs/historias-card-casa.png"/>\n    <div class="card-title">Casa</div>\n    <div class="card-subtitle">\n      <ion-icon name="star" color="golden"></ion-icon>\n      <ion-icon name="star" color="golden"></ion-icon>\n      <ion-icon name="star" color="golden"></ion-icon>\n      <ion-icon name="star" color="golden"></ion-icon>\n      <ion-icon name="star-outline" color="golden"></ion-icon>\n    </div>      \n  </ion-card>\n  \n\n</ion-content>\n'/*ion-inline-end:"/home/eaxadevops/Documents/programacion/github/dvst/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/historias/historias.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
     ], HistoriasPage);
     return HistoriasPage;
 }());
@@ -124,9 +124,9 @@ var BienvenidaPage = /** @class */ (function () {
     };
     BienvenidaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-bienvenida',template:/*ion-inline-start:"/Users/javierperez/Documents/programacion/git/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/bienvenida/bienvenida.html"*/'<!--\n  Generated template for the BienvenidaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-slides pager>\n\n    <ion-slide style="background-color: #FFDF00">\n      <h2>¡Hola! preparate para la Victoria</h2>\n    </ion-slide>\n  \n    <ion-slide style="background-color: #FFDF00">\n      <h2>Con esta app aprenderas jugando con cuentos en los que tus decisiones cambiaran la historia</h2>\n    </ion-slide>\n  \n    <ion-slide style="background-color: #FFDF00">\n      <button ion-button color="light" (click)="irPagina(\'p\')" >Empecemos</button>\n    </ion-slide>\n  \n  </ion-slides>\n</ion-content>\n'/*ion-inline-end:"/Users/javierperez/Documents/programacion/git/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/bienvenida/bienvenida.html"*/,
+            selector: 'page-bienvenida',template:/*ion-inline-start:"/home/eaxadevops/Documents/programacion/github/dvst/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/bienvenida/bienvenida.html"*/'<!--\n  Generated template for the BienvenidaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-slides pager>\n\n    <ion-slide style="background-color: #FFDF00">\n      <h2>¡Hola! preparate para la Victoria</h2>\n    </ion-slide>\n  \n    <ion-slide style="background-color: #FFDF00">\n      <h2>Con esta app aprenderas jugando con cuentos en los que tus decisiones cambiaran la historia</h2>\n    </ion-slide>\n  \n    <ion-slide style="background-color: #FFDF00">\n      <button ion-button color="light" (click)="irPagina(\'p\')" >Empecemos</button>\n    </ion-slide>\n  \n  </ion-slides>\n</ion-content>\n'/*ion-inline-end:"/home/eaxadevops/Documents/programacion/github/dvst/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/bienvenida/bienvenida.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
     ], BienvenidaPage);
     return BienvenidaPage;
 }());
@@ -136,6 +136,56 @@ var BienvenidaPage = /** @class */ (function () {
 /***/ }),
 
 /***/ 196:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PerfilCrearPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the PerfilCrearPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var PerfilCrearPage = /** @class */ (function () {
+    function PerfilCrearPage(viewCtrl, navCtrl, navParams) {
+        this.viewCtrl = viewCtrl;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    PerfilCrearPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad PerfilCrearPage');
+    };
+    PerfilCrearPage.prototype.dismiss = function () {
+        alert(this.text);
+        this.viewCtrl.dismiss();
+    };
+    PerfilCrearPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-perfil-crear',template:/*ion-inline-start:"/home/eaxadevops/Documents/programacion/github/dvst/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/perfil-crear/perfil-crear.html"*/'<!--\n  Generated template for the PerfilCrearPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-toolbar>\n        <ion-title>\n          Crear perfil\n        </ion-title>\n        <ion-buttons start>\n          <button ion-button (click)="dismiss()">\n            <span ion-text color="primary" showWhen="ios">Cancel</span>\n            <ion-icon name="md-close" showWhen="android,windows"></ion-icon>\n          </button>\n        </ion-buttons>\n      </ion-toolbar>\n    \n</ion-header>\n\n<ion-content padding>\n\n  <ion-list>\n    <ion-item>\n      <ion-icon name="person-add" item-start></ion-icon>\n      <ion-label floating>Nombre</ion-label>\n      <ion-input type="text"></ion-input>\n    </ion-item>\n  </ion-list>  \n\n  <ion-list radio-group>\n    <ion-list-header>\n      Genero\n    </ion-list-header>\n    <ion-item>\n      <ion-icon name="man" color="primary" item-start></ion-icon>\n      <ion-label>Masculino</ion-label>\n      <ion-radio value="m"></ion-radio>\n    </ion-item>\n    <ion-item>\n      <ion-icon name="woman" color="danger" item-start></ion-icon>\n      <ion-label>Femenino</ion-label>\n      <ion-radio value="f"></ion-radio>\n    </ion-item>\n  </ion-list>\n\n  <ion-list>\n      <ion-list-header>\n        Edad\n      </ion-list-header>\n      <ion-item>\n        <ion-range min="6" step="1" pin=true max="16" snaps="true" [(ngModel)]="text">\n          <ion-label range-left >6</ion-label>\n          <ion-label range-right>16 ó mas</ion-label>\n        </ion-range>\n      </ion-item>\n    </ion-list>\n  \n  \n  <button ion-button icon-end block>Crear<ion-icon name="arrow-forward"></ion-icon></button> \n\n\n\n</ion-content>\n'/*ion-inline-end:"/home/eaxadevops/Documents/programacion/github/dvst/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/perfil-crear/perfil-crear.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* ViewController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
+    ], PerfilCrearPage);
+    return PerfilCrearPage;
+}());
+
+//# sourceMappingURL=perfil-crear.js.map
+
+/***/ }),
+
+/***/ 197:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -169,9 +219,9 @@ var AcercaPage = /** @class */ (function () {
     };
     AcercaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-acerca',template:/*ion-inline-start:"/Users/javierperez/Documents/programacion/git/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/acerca/acerca.html"*/'<!--\n  Generated template for the AcercaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Acerca de esta App</ion-title>\n  </ion-navbar>\n    \n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Users/javierperez/Documents/programacion/git/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/acerca/acerca.html"*/,
+            selector: 'page-acerca',template:/*ion-inline-start:"/home/eaxadevops/Documents/programacion/github/dvst/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/acerca/acerca.html"*/'<!--\n  Generated template for the AcercaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Acerca de esta App</ion-title>\n  </ion-navbar>\n    \n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/home/eaxadevops/Documents/programacion/github/dvst/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/acerca/acerca.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
     ], AcercaPage);
     return AcercaPage;
 }());
@@ -180,7 +230,7 @@ var AcercaPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 197:
+/***/ 198:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -207,9 +257,9 @@ var ItemDetailsPage = /** @class */ (function () {
     }
     ItemDetailsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-item-details',template:/*ion-inline-start:"/Users/javierperez/Documents/programacion/git/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/item-details/item-details.html"*/'<ion-header>\n  <ion-navbar>\n    <button menuToggle *ngIf="!selectedItem">\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Item Details</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <h3 text-center *ngIf="selectedItem">\n    {{selectedItem.title}}\n    <ion-icon [name]="selectedItem.icon"></ion-icon>\n  </h3>\n  <h4 text-center *ngIf="selectedItem">\n    You navigated here from <b>{{selectedItem.title}}</b>\n  </h4>\n</ion-content>\n'/*ion-inline-end:"/Users/javierperez/Documents/programacion/git/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/item-details/item-details.html"*/
+            selector: 'page-item-details',template:/*ion-inline-start:"/home/eaxadevops/Documents/programacion/github/dvst/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/item-details/item-details.html"*/'<ion-header>\n  <ion-navbar>\n    <button menuToggle *ngIf="!selectedItem">\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Item Details</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <h3 text-center *ngIf="selectedItem">\n    {{selectedItem.title}}\n    <ion-icon [name]="selectedItem.icon"></ion-icon>\n  </h3>\n  <h4 text-center *ngIf="selectedItem">\n    You navigated here from <b>{{selectedItem.title}}</b>\n  </h4>\n</ion-content>\n'/*ion-inline-end:"/home/eaxadevops/Documents/programacion/github/dvst/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/item-details/item-details.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
     ], ItemDetailsPage);
     return ItemDetailsPage;
 }());
@@ -218,14 +268,14 @@ var ItemDetailsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 198:
+/***/ 199:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_item_details__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_item_details__ = __webpack_require__(198);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -260,9 +310,9 @@ var ListPage = /** @class */ (function () {
     };
     ListPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-list',template:/*ion-inline-start:"/Users/javierperez/Documents/programacion/git/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/list/list.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>My First List</ion-title>\n  </ion-navbar>\n</ion-header>\n\n  <ion-list>\n    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">\n      <ion-icon name="{{item.icon}}" item-left></ion-icon>\n      {{item.title}}\n      <div class="item-note" item-right>\n        {{item.note}}\n      </div>\n    </button>\n  </ion-list>\n'/*ion-inline-end:"/Users/javierperez/Documents/programacion/git/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/list/list.html"*/
+            selector: 'page-list',template:/*ion-inline-start:"/home/eaxadevops/Documents/programacion/github/dvst/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/list/list.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>My First List</ion-title>\n  </ion-navbar>\n</ion-header>\n\n  <ion-list>\n    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">\n      <ion-icon name="{{item.icon}}" item-left></ion-icon>\n      {{item.title}}\n      <div class="item-note" item-right>\n        {{item.note}}\n      </div>\n    </button>\n  </ion-list>\n'/*ion-inline-end:"/home/eaxadevops/Documents/programacion/github/dvst/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/list/list.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
     ], ListPage);
     return ListPage;
 }());
@@ -271,7 +321,7 @@ var ListPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 199:
+/***/ 200:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -305,9 +355,9 @@ var LoginPage = /** @class */ (function () {
     };
     LoginPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-login',template:/*ion-inline-start:"/Users/javierperez/Documents/programacion/git/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/login/login.html"*/'<!--\n  Generated template for the LoginPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>login</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n  <ion-row class="logo-row">\n    <ion-col></ion-col>\n    <ion-col width-67>\n      <img src="http://placehold.it/300x200"/>\n    </ion-col>\n    <ion-col></ion-col>\n  </ion-row>\n  <div class="login-box">\n    <form (ngSubmit)="login()" #registerForm="ngForm">\n      <ion-row>\n        <ion-col>\n          <ion-list inset>\n            \n            <ion-item>\n              <ion-input type="text" placeholder="Email" name="email"  required></ion-input>\n            </ion-item>\n            \n            <ion-item>\n              <ion-input type="password" placeholder="Password" name="password"  required></ion-input>\n            </ion-item>\n            \n          </ion-list>\n        </ion-col>\n      </ion-row>\n      \n      <ion-row>\n        <ion-col class="signup-col">\n          <button ion-button class="submit-btn" full type="submit" [disabled]="!registerForm.form.valid">Login</button>\n          <button ion-button class="register-btn" block clear (click)="createAccount()">Create New Account</button>\n        </ion-col>\n      </ion-row>\n      \n    </form>\n  </div>\n'/*ion-inline-end:"/Users/javierperez/Documents/programacion/git/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/login/login.html"*/,
+            selector: 'page-login',template:/*ion-inline-start:"/home/eaxadevops/Documents/programacion/github/dvst/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/login/login.html"*/'<!--\n  Generated template for the LoginPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>login</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n  <ion-row class="logo-row">\n    <ion-col></ion-col>\n    <ion-col width-67>\n      <img src="http://placehold.it/300x200"/>\n    </ion-col>\n    <ion-col></ion-col>\n  </ion-row>\n  <div class="login-box">\n    <form (ngSubmit)="login()" #registerForm="ngForm">\n      <ion-row>\n        <ion-col>\n          <ion-list inset>\n            \n            <ion-item>\n              <ion-input type="text" placeholder="Email" name="email"  required></ion-input>\n            </ion-item>\n            \n            <ion-item>\n              <ion-input type="password" placeholder="Password" name="password"  required></ion-input>\n            </ion-item>\n            \n          </ion-list>\n        </ion-col>\n      </ion-row>\n      \n      <ion-row>\n        <ion-col class="signup-col">\n          <button ion-button class="submit-btn" full type="submit" [disabled]="!registerForm.form.valid">Login</button>\n          <button ion-button class="register-btn" block clear (click)="createAccount()">Create New Account</button>\n        </ion-col>\n      </ion-row>\n      \n    </form>\n  </div>\n'/*ion-inline-end:"/home/eaxadevops/Documents/programacion/github/dvst/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/login/login.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
     ], LoginPage);
     return LoginPage;
 }());
@@ -316,13 +366,13 @@ var LoginPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 200:
+/***/ 201:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(224);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -330,7 +380,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 223:
+/***/ 224:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -338,20 +388,20 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(266);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_item_details_item_details__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(267);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_item_details_item_details__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(199);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_status_bar__ = __webpack_require__(191);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_splash_screen__ = __webpack_require__(194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_login_login__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_elementos_elementos__ = __webpack_require__(274);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_tabs_tabs__ = __webpack_require__(275);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_slider_slider__ = __webpack_require__(276);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_login_login__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_elementos_elementos__ = __webpack_require__(275);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_tabs_tabs__ = __webpack_require__(276);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_slider_slider__ = __webpack_require__(277);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_bienvenida_bienvenida__ = __webpack_require__(195);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_perfil_perfil__ = __webpack_require__(99);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_perfil_crear_perfil_crear__ = __webpack_require__(277);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_perfil_crear_perfil_crear__ = __webpack_require__(196);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_historias_historias__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_acerca_acerca__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_acerca_acerca__ = __webpack_require__(197);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -429,7 +479,7 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 266:
+/***/ 267:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -441,7 +491,7 @@ var AppModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_bienvenida_bienvenida__ = __webpack_require__(195);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_perfil_perfil__ = __webpack_require__(99);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_historias_historias__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_acerca_acerca__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_acerca_acerca__ = __webpack_require__(197);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -465,7 +515,7 @@ var MyApp = /** @class */ (function () {
         this.menu = menu;
         this.statusBar = statusBar;
         this.splashScreen = splashScreen;
-        this.rootPage = __WEBPACK_IMPORTED_MODULE_6__pages_historias_historias__["a" /* HistoriasPage */];
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_bienvenida_bienvenida__["a" /* BienvenidaPage */];
         this.initializeApp();
         // set our app's pages
         this.pages = [
@@ -491,25 +541,23 @@ var MyApp = /** @class */ (function () {
         this.nav.setRoot(page.component);
     };
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */])
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Nav */]),
+        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Nav */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Nav */]) === "function" && _a || Object)
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/javierperez/Documents/programacion/git/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/app/app.html"*/'<ion-menu [content]="content">\n\n  <ion-header>\n    <ion-toolbar>\n      <ion-title>Menu</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content>\n    <ion-list>\n      <button ion-item *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n      </button>\n    </ion-list>\n  </ion-content>\n\n</ion-menu>\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>\n'/*ion-inline-end:"/Users/javierperez/Documents/programacion/git/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/app/app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/home/eaxadevops/Documents/programacion/github/dvst/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/app/app.html"*/'<ion-menu [content]="content">\n\n  <ion-header>\n    <ion-toolbar>\n      <ion-title>Menu</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content>\n    <ion-list>\n      <button ion-item *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n      </button>\n    </ion-list>\n  </ion-content>\n\n</ion-menu>\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>\n'/*ion-inline-end:"/home/eaxadevops/Documents/programacion/github/dvst/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/app/app.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* MenuController */],
-            __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */],
-            __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* MenuController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* MenuController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _e || Object])
     ], MyApp);
     return MyApp;
+    var _a, _b, _c, _d, _e;
 }());
 
 //# sourceMappingURL=app.component.js.map
 
 /***/ }),
 
-/***/ 274:
+/***/ 275:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -598,10 +646,10 @@ var ElementosPage = /** @class */ (function () {
     };
     ElementosPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-elementos',template:/*ion-inline-start:"/Users/javierperez/Documents/programacion/git/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/elementos/elementos.html"*/'<!--\n  Generated template for the ElementosPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>elementos</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <button ion-button full (click)="presentActionSheet()" >Mostrar ActionSheets</button>\n  <ion-list>\n    <button ion-item *ngFor="let item of items"\n    (click)="itemSelected(item)">\n    {{ item }}\n    </button>  \n    </ion-list>\n    \n</ion-content>\n'/*ion-inline-end:"/Users/javierperez/Documents/programacion/git/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/elementos/elementos.html"*/,
+            selector: 'page-elementos',template:/*ion-inline-start:"/home/eaxadevops/Documents/programacion/github/dvst/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/elementos/elementos.html"*/'<!--\n  Generated template for the ElementosPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>elementos</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <button ion-button full (click)="presentActionSheet()" >Mostrar ActionSheets</button>\n  <ion-list>\n    <button ion-item *ngFor="let item of items"\n    (click)="itemSelected(item)">\n    {{ item }}\n    </button>  \n    </ion-list>\n    \n</ion-content>\n'/*ion-inline-end:"/home/eaxadevops/Documents/programacion/github/dvst/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/elementos/elementos.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
     ], ElementosPage);
@@ -612,15 +660,15 @@ var ElementosPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 275:
+/***/ 276:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__list_list__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__list_list__ = __webpack_require__(199);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -652,9 +700,9 @@ var TabsPage = /** @class */ (function () {
     };
     TabsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-tabs',template:/*ion-inline-start:"/Users/javierperez/Documents/programacion/git/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/tabs/tabs.html"*/'<!--\n  Generated template for the TabsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>tabs</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n  <ion-tabs>\n    <ion-tab tabIcon="heart" [root]="tab1">\n  </ion-tab>\n  <ion-tab tabIcon="star" [root]="tab2">\n  </ion-tab>\n  </ion-tabs>`\n\n'/*ion-inline-end:"/Users/javierperez/Documents/programacion/git/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/tabs/tabs.html"*/,
+            selector: 'page-tabs',template:/*ion-inline-start:"/home/eaxadevops/Documents/programacion/github/dvst/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/tabs/tabs.html"*/'<!--\n  Generated template for the TabsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>tabs</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n  <ion-tabs>\n    <ion-tab tabIcon="heart" [root]="tab1">\n  </ion-tab>\n  <ion-tab tabIcon="star" [root]="tab2">\n  </ion-tab>\n  </ion-tabs>`\n\n'/*ion-inline-end:"/home/eaxadevops/Documents/programacion/github/dvst/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/tabs/tabs.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
     ], TabsPage);
     return TabsPage;
 }());
@@ -663,7 +711,7 @@ var TabsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 276:
+/***/ 277:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -697,59 +745,14 @@ var SliderPage = /** @class */ (function () {
     };
     SliderPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-slider',template:/*ion-inline-start:"/Users/javierperez/Documents/programacion/git/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/slider/slider.html"*/'<!--\n  Generated template for the SliderPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>slider</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-slides pager>\n\n    <ion-slide style="background-color: green">\n      <page-login></page-login>\n    </ion-slide>\n  \n    <ion-slide style="background-color: blue">\n      <page-tabs></page-tabs>\n    </ion-slide>\n  \n    <ion-slide style="background-color: red">\n      <page-list></page-list>\n    </ion-slide>\n  \n  </ion-slides>\n  \n</ion-content>\n'/*ion-inline-end:"/Users/javierperez/Documents/programacion/git/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/slider/slider.html"*/,
+            selector: 'page-slider',template:/*ion-inline-start:"/home/eaxadevops/Documents/programacion/github/dvst/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/slider/slider.html"*/'<!--\n  Generated template for the SliderPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>slider</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-slides pager>\n\n    <ion-slide style="background-color: green">\n      <page-login></page-login>\n    </ion-slide>\n  \n    <ion-slide style="background-color: blue">\n      <page-tabs></page-tabs>\n    </ion-slide>\n  \n    <ion-slide style="background-color: red">\n      <page-list></page-list>\n    </ion-slide>\n  \n  </ion-slides>\n  \n</ion-content>\n'/*ion-inline-end:"/home/eaxadevops/Documents/programacion/github/dvst/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/slider/slider.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
     ], SliderPage);
     return SliderPage;
 }());
 
 //# sourceMappingURL=slider.js.map
-
-/***/ }),
-
-/***/ 277:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PerfilCrearPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the PerfilCrearPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var PerfilCrearPage = /** @class */ (function () {
-    function PerfilCrearPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    PerfilCrearPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad PerfilCrearPage');
-    };
-    PerfilCrearPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-perfil-crear',template:/*ion-inline-start:"/Users/javierperez/Documents/programacion/git/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/perfil-crear/perfil-crear.html"*/'<!--\n  Generated template for the PerfilCrearPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-toolbar>\n        <ion-title>\n          Crear perfil\n        </ion-title>\n        <ion-buttons start>\n          <button ion-button >\n            <span ion-text color="primary" showWhen="ios">Cancel</span>\n            <ion-icon name="md-close" showWhen="android,windows"></ion-icon>\n          </button>\n        </ion-buttons>\n      </ion-toolbar>\n    \n</ion-header>\n\n<ion-content padding>\n\n  <ion-list>\n    <ion-item>\n      <ion-icon name="person-add" item-start></ion-icon>\n      <ion-label floating>Nombre</ion-label>\n      <ion-input type="text"></ion-input>\n    </ion-item>\n  </ion-list>  \n\n  <ion-list radio-group>\n    <ion-list-header>\n      Genero\n    </ion-list-header>\n    <ion-item>\n      <ion-icon name="man" color="primary" item-start></ion-icon>\n      <ion-label>Masculino</ion-label>\n      <ion-radio value="m"></ion-radio>\n    </ion-item>\n    <ion-item>\n      <ion-icon name="woman" color="danger" item-start></ion-icon>\n      <ion-label>Femenino</ion-label>\n      <ion-radio value="f"></ion-radio>\n    </ion-item>\n  </ion-list>\n\n  <ion-list>\n      <ion-list-header>\n        Edad\n      </ion-list-header>\n      <ion-item>\n        <ion-range min="6" step="1" pin=true max="16" snaps="true" [(ngModel)]="text">\n          <ion-label range-left >6</ion-label>\n          <ion-label range-right>16 ó mas</ion-label>\n        </ion-range>\n      </ion-item>\n    </ion-list>\n  \n  \n  <button ion-button icon-end block>Crear<ion-icon name="arrow-forward"></ion-icon></button> \n\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/javierperez/Documents/programacion/git/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/perfil-crear/perfil-crear.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
-    ], PerfilCrearPage);
-    return PerfilCrearPage;
-}());
-
-//# sourceMappingURL=perfil-crear.js.map
 
 /***/ }),
 
@@ -761,6 +764,7 @@ var PerfilCrearPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__historias_historias__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__perfil_crear_perfil_crear__ = __webpack_require__(196);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -774,6 +778,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 /**
  * Generated class for the PerfilPage page.
  *
@@ -781,7 +786,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Ionic pages and navigation.
  */
 var PerfilPage = /** @class */ (function () {
-    function PerfilPage(navCtrl, navParams, toastCtrl) {
+    function PerfilPage(modalCtrl, navCtrl, navParams, toastCtrl) {
+        this.modalCtrl = modalCtrl;
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.toastCtrl = toastCtrl;
@@ -804,11 +810,15 @@ var PerfilPage = /** @class */ (function () {
         toast.present();
         this.navCtrl.setRoot(componente);
     };
+    PerfilPage.prototype.perfil_nuevo = function () {
+        var profileModal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_3__perfil_crear_perfil_crear__["a" /* PerfilCrearPage */]);
+        profileModal.present();
+    };
     PerfilPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-perfil',template:/*ion-inline-start:"/Users/javierperez/Documents/programacion/git/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/perfil/perfil.html"*/'<!--\n  Generated template for the PerfilPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Perfiles de usuario</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding> \n\n  <button ion-button icon-start block (click)="irPagina(\'historias\',\'Javier\')"><ion-icon name="man"></ion-icon>Javier</button> \n  <button ion-button icon-start block (click)="irPagina(\'historias\',\'Pilar\')" color="danger"><ion-icon name="woman"></ion-icon>Pilar</button> \n\n  <ion-fab right bottom>\n    <button ion-fab color="secondary"><ion-icon name="add"></ion-icon> </button>\n  </ion-fab>\n</ion-content>\n'/*ion-inline-end:"/Users/javierperez/Documents/programacion/git/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/perfil/perfil.html"*/,
+            selector: 'page-perfil',template:/*ion-inline-start:"/home/eaxadevops/Documents/programacion/github/dvst/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/perfil/perfil.html"*/'<!--\n  Generated template for the PerfilPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Perfiles de usuario</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding> \n\n  <button ion-button icon-start block (click)="irPagina(\'historias\',\'Javier\')"><ion-icon name="man"></ion-icon>Javier</button> \n  <button ion-button icon-start block (click)="irPagina(\'historias\',\'Pilar\')" color="danger"><ion-icon name="woman"></ion-icon>Pilar</button> \n\n  <ion-fab right bottom (click)="perfil_nuevo()">\n    <button ion-fab color="secondary"><ion-icon name="add"></ion-icon> </button>\n  </ion-fab>\n</ion-content>\n'/*ion-inline-end:"/home/eaxadevops/Documents/programacion/github/dvst/CCYD-67-ViolenciaContraMujer/Frontend/MiPrimerApp/src/pages/perfil/perfil.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* ToastController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ToastController */]])
     ], PerfilPage);
     return PerfilPage;
 }());
@@ -817,5 +827,5 @@ var PerfilPage = /** @class */ (function () {
 
 /***/ })
 
-},[200]);
+},[201]);
 //# sourceMappingURL=main.js.map
