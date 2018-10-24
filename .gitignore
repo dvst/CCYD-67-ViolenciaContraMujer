@@ -25,3 +25,5 @@
 node_modules
 
 Gemfile.lock
+
+Frontend/MiPrimerApp/www/build/*
