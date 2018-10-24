@@ -30,3 +30,4 @@ BackEnd/tmp/cache/
 Frontend/MiPrimerApp/package-lock.json
 BackEnd/tmp/
 BackEnd/log/
+Frontend/MiPrimerApp/www/build/*

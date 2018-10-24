@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { TrofeoPage } from '../trofeo/trofeo';
 
 /**
  * Generated class for the HistoriasPage page.
@@ -20,5 +21,16 @@ export class HistoriasPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad HistoriasPage');
   }
+
+  irPagina(type){
+    let componente:any; 
+    switch(type){
+      case "trofeo": 
+        componente=TrofeoPage
+        break;
+    }
+    this.navCtrl.setRoot(componente)
+  }
+
 
 }
