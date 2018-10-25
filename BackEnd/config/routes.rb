@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :advances
   resources :history_cards
   resources :histories
   resources :profiles
