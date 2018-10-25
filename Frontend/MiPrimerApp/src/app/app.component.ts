@@ -16,7 +16,7 @@ import { TrofeoPage } from '../pages/trofeo/trofeo';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage = BienvenidaPage;
+  rootPage = PerfilPage;
   pages: Array<{title: string, component: any}>;
 
   constructor(

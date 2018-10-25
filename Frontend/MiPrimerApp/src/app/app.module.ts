@@ -11,7 +11,7 @@ import { PerfilCrearPage } from '../pages/perfil-crear/perfil-crear';
 import { HistoriasPage } from '../pages/historias/historias';
 import { AcercaPage } from '../pages/acerca/acerca';
 import { TrofeoPage } from '../pages/trofeo/trofeo';
-
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -25,6 +25,7 @@ import { TrofeoPage } from '../pages/trofeo/trofeo';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     IonicModule.forRoot(MyApp),
   ],
   bootstrap: [IonicApp],
