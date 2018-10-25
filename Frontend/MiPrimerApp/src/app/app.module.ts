@@ -12,6 +12,7 @@ import { HistoriasPage } from '../pages/historias/historias';
 import { AcercaPage } from '../pages/acerca/acerca';
 import { TrofeoPage } from '../pages/trofeo/trofeo';
 import { HttpClientModule } from '@angular/common/http';
+import { ProfileServiceProvider } from '../providers/profile-service/profile-service';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { HttpClientModule } from '@angular/common/http';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    ProfileServiceProvider
   ]
 })
 export class AppModule {}
