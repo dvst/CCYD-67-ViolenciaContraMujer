@@ -11,7 +11,6 @@ import { PerfilCrearPage } from '../pages/perfil-crear/perfil-crear';
 import { HistoriasPage } from '../pages/historias/historias';
 import { AcercaPage } from '../pages/acerca/acerca';
 import { TrofeoPage } from '../pages/trofeo/trofeo';
-import { OneSignal } from '@ionic-native/onesignal';
 
 
 @NgModule({
@@ -41,7 +40,6 @@ import { OneSignal } from '@ionic-native/onesignal';
   providers: [
     StatusBar,
     SplashScreen,
-    OneSignal,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

@@ -39,20 +39,6 @@ export class MyApp {
 
   initializeApp() {
     this.platform.ready().then(() => {
-
-    // OneSignal Code start:
-    // Enable to debug issues:
-    window["plugins"].OneSignal.setLogLevel({logLevel: 4, visualLevel: 4});
-
-    var notificationOpenedCallback = function(jsonData) {
-      console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
-    };
- 
-     window["plugins"].OneSignal
-       .startInit("f6966f34-c2a7-423c-8603-fa7f922b634c", "562372341281")
-       .handleNotificationOpened(notificationOpenedCallback)
-       .endInit();
-
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
       this.statusBar.styleDefault();
