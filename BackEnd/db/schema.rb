@@ -10,10 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_10_25_171920) do
+ActiveRecord::Schema.define(version: 2018_10_25_172631) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "advances", force: :cascade do |t|
+    t.bigint "profile_id"
+    t.bigint "history_id"
+    t.integer "score"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["history_id"], name: "index_advances_on_history_id"
+    t.index ["profile_id"], name: "index_advances_on_profile_id"
+  end
 
   create_table "histories", force: :cascade do |t|
     t.string "name"
@@ -41,5 +51,7 @@ ActiveRecord::Schema.define(version: 2018_10_25_171920) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "advances", "histories"
+  add_foreign_key "advances", "profiles"
   add_foreign_key "history_cards", "histories"
 end
