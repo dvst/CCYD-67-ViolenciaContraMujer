@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :answers_alterantives
   resources :advances
   resources :history_cards
   resources :histories
