@@ -14,4 +14,8 @@ export class ProfileServiceProvider {
     console.log('Hello ProfileServiceProvider Provider');
   }
 
+  getProfiles() {
+    return this.http.get('http://localhost:3000/profiles/');
+  }
+
 }

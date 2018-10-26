@@ -3,6 +3,7 @@ import { NavController, NavParams, ModalController } from 'ionic-angular';
 import { HistoriasPage } from '../historias/historias';
 import { ToastController } from 'ionic-angular';
 import { PerfilCrearPage } from '../perfil-crear/perfil-crear';
+import { ProfileServiceProvider } from '../../providers/profile-service/profile-service';
 
 
 /**
@@ -18,11 +19,27 @@ import { PerfilCrearPage } from '../perfil-crear/perfil-crear';
 })
 export class PerfilPage {
 
-  constructor(public modalCtrl: ModalController ,public navCtrl: NavController, public navParams: NavParams, public toastCtrl: ToastController) {
+  perfiles: any[] = [];
+
+  constructor(
+    public modalCtrl: ModalController ,
+    public navCtrl: NavController, 
+    public navParams: NavParams, 
+    public toastCtrl: ToastController,
+    public profileService: ProfileServiceProvider
+    ) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad PerfilPage');
+    this.profileService.getProfiles()
+    .subscribe(
+      (data) => { // Success
+        this.perfiles = data[''];
+      },
+      (error) =>{
+        console.error(error);
+      }
+    )
   }
 
   irPagina(type,nombre){
